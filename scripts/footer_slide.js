@@ -7,5 +7,6 @@ const footer = document.querySelector(".js-footer");
   });
   element.addEventListener("focusout", () => {
     footer.classList.remove("slide");
+    footer.classList.remove("top");
   });
 });
